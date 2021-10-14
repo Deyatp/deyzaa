@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--> <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
@@ -10,14 +10,14 @@
     <TextView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:background="#FBE4FF"
+        android:background="#FFC107"
         android:text="Anak 1"
         android:textSize="30sp" />
 
     <TextView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:background="#ECD4FF"
+        android:background="#2196F3"
         android:text="Anak 2"
         android:textSize="30sp"
         />
@@ -25,7 +25,7 @@
     <TextView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:background="#D5AAFF"
+        android:background="#4CAF50"
         android:text="Anak 3"
         android:textSize="30sp"
         />
@@ -38,29 +38,112 @@
         android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:background="#C5A3FF"
-            android:text="Anak 4"
-            android:textSize="30sp"
-            />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:text="Anak 4"
+        android:textSize="30sp"
+      />
 
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:background="#B28DFF"
-            android:text="Anak 5"
-            android:textSize="30sp" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#7FA158"
+        android:text="Anak 5"
+        android:textSize="30sp" />
 
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:background="#DCD3FF"
-            android:text="Anak 6"
-            android:textSize="30sp"
-            />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#67C69D"
+        android:text="Anak 6"
+        android:textSize="30sp"
+         />
 
 
-    </LinearLayout>
 </LinearLayout>
+</LinearLayout></!-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FF00"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#98FB98"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="75dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="200dp"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:background="@color/white"
+                android:src="@drawable/gunatp"></ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:src="@drawable/atp5"></ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:src="@drawable/atp8"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:background="@color/white"
+                android:src="@drawable/atp2"></ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:src="@drawable/atp6"></ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:src="@drawable/gunatp1"></ImageView>
+
+        </LinearLayout>
+
+        "
+    </RelativeLayout>
+</RelativeLayout>
